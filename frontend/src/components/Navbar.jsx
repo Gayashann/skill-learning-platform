@@ -4,6 +4,7 @@ import { AuthContext } from "../context/AuthContext";
 import { FaUserCircle, FaSun, FaMoon } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+//nav bar 
 function Navbar() {
   const { user, logout, theme, toggleTheme, setShowAuthForm, setIsLogin } =
     useContext(AuthContext);
