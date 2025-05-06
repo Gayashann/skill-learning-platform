@@ -29,7 +29,7 @@ export default function ShareSkills() {
       setLoading(false);
     }
   };
-
+//fetch
   useEffect(() => {
     fetchUserPosts();
   }, [user]);
