@@ -58,6 +58,8 @@ function Profile() {
     }
   };
 
+  //Profile
+
   const handleFollowToggle = async () => {
     if (!user) {
       addNotification("Please log in to follow users.");
