@@ -5,6 +5,7 @@ import axios from "axios";
 import { AuthContext } from "../context/AuthContext";
 import { getUserProfile, followUser, unfollowUser } from "../api";
 
+//profile 
 function Profile() {
   const { userId } = useParams();
   const [profile, setProfile] = useState(null);
