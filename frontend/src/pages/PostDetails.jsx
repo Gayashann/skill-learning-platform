@@ -54,7 +54,7 @@ export default function PostDetails({ postId }) {
         ...post,
         comments: post.comments.map((c) => (c.id === commentId ? res.data : c)),
       });
-      addNotification("Comment updated!");
+      addNotification("Comment updated!");  //Edit post comments 
     } catch (err) {
       console.error("Error editing comment:", err);
       addNotification("Failed to update comment.");
