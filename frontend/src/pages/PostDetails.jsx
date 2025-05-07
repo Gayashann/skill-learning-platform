@@ -8,6 +8,7 @@ export default function PostDetails({ postId }) { // Default export
   const [user, setUser] = useState(null);
 
   // Placeholder for addNotification 
+  //Placeholde(replace with your actual implementation)
   const addNotification = (message) => console.log(message);
 
   useEffect(() => {
