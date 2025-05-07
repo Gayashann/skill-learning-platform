@@ -5,7 +5,7 @@ import { FaHeart, FaEdit, FaTrash } from "react-icons/fa";
 
 export default function PostDetails({ postId }) { 
   const [post, setPost] = useState(null);
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null); // Default export
 
   // Placeholder for addNotification 
   //Placeholde(replace with your actual implementation)
