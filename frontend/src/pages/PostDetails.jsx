@@ -59,7 +59,7 @@ export default function PostDetails({ postId }) {
       addNotification("Failed to update comment.");
     }
   };
-
+  //deleting a post
   const handleDeleteComment = (commentId) => {
     axios
       .delete(`http://localhost:8080/api/posts/comments/${commentId}?userId=${user.userId}`, {
