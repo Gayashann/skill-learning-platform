@@ -1,4 +1,5 @@
 // src/pages/Admin.jsx
+//Admin page
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import axios from "axios";
