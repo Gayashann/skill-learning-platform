@@ -71,12 +71,12 @@ export default function Home() {
       setFilteredPosts([]);
     }
   }, [user]);
-
+  
   const getUniqueTags = () => {
     const allTags = posts.flatMap((post) => (post.tags ? post.tags.split(",").map((tag) => tag.trim()) : []));
     return ["All", ...new Set(allTags)];
   };
-
+  // Filter posts based on selected tag and search query
   useEffect(() => {
     let result = posts;
     if (selectedTag !== "All") {
