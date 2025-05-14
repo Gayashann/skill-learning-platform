@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { FaHeart, FaEdit, FaTrash } from "react-icons/fa";
-
+  // This component fetches and displays post details, including comments and like/unlike functionality.
 export default function PostDetails({ postId }) { 
   const [post, setPost] = useState(null);
   const [user, setUser] = useState(null); // Default export
