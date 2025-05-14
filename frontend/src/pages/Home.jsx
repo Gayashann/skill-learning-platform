@@ -92,7 +92,7 @@ export default function Home() {
     }
     setFilteredPosts(result);
   }, [selectedTag, searchQuery, posts]);
-
+  // Handle comment submission
   const handleCommentSubmit = async (postId) => {
     if (!user || !newComments[postId]?.trim()) return;
     try {
