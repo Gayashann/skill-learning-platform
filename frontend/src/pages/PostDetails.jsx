@@ -43,7 +43,7 @@ export default function PostDetails({ postId }) {
       })
       .catch((err) => console.error("Error unliking post:", err));
   };
-  //updating a post : Edit post title 
+  
   
   const handleEditComment = async (commentId, newText) => {
     try {
