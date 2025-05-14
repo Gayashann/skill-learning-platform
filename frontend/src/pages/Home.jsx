@@ -252,7 +252,7 @@ export default function Home() {
       setError(err.message || "Authentication failed");
     }
   };
-
+  // Handle theme toggle
   const getReactionCount = (post, type) => post.reactions?.filter((r) => r.reactionType === type).length || 0;
   const hasUserReacted = (post, type) => post.reactions?.some((r) => r.userId === user?.id && r.reactionType === type);
 
