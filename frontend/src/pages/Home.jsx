@@ -286,6 +286,7 @@ export default function Home() {
     hover: { scale: 1.05, transition: { duration: 0.3 } },
   };
 
+  // Animation variants for form
   return (
     <div className={`min-h-screen ${theme === "dark" ? "bg-gray-900" : "bg-gradient-to-br from-gray-50 to-gray-100"} `}>
       {/* Theme Toggle */}
