@@ -175,7 +175,7 @@ export default function Home() {
     }
     setShowReactions(null);
   };
-
+  // Handle follow/unfollow user
   const handleFollowPost = async (postId, userId) => {
     if (!user) {
       setShowAuthForm(true);
