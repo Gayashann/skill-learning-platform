@@ -267,7 +267,7 @@ export default function Home() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
     hover: { scale: 1.02, transition: { duration: 0.3 } },
   };
-
+  // Animation variants for form
   const formVariants = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: { opacity: 1, scale: 1, transition: { duration: 0.4, ease: "easeOut" } },
