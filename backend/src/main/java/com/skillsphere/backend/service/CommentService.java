@@ -1,5 +1,7 @@
 package com.skillsphere.backend.service;
 
+
+// import com.skillsphere.backend.dto.CommentDTO;
 import com.skillsphere.backend.model.Comment;
 import com.skillsphere.backend.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
