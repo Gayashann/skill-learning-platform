@@ -274,6 +274,7 @@ export default function Home() {
     exit: { opacity: 0, scale: 0.9, transition: { duration: 0.3, ease: "easeIn" } },
   };
 
+    // Animation variants for hero text and button
   const heroTextVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
