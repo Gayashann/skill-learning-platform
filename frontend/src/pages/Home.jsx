@@ -302,7 +302,7 @@ export default function Home() {
           {theme === "light" ? <MoonIcon className="h-6 w-6" /> : <SunIcon className="h-6 w-6" />}
         </button>
       </motion.div>
-
+    
       {/* Hero Section - Full Screen */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -456,7 +456,7 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-
+            
       {/* Posts Container */}
       <div className="max-w-3xl mx-auto">
         {loading ? (
@@ -733,7 +733,7 @@ export default function Home() {
           </motion.div>
         )}
       </div>
-
+        
       {/* Login/Register Popup */}
       <AnimatePresence>
         {showAuthForm && (
