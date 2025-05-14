@@ -33,6 +33,7 @@ export default function PostDetails({ postId }) {
       .catch((err) => console.error("Error liking post:", err));
   };
 
+  //unlike a post
   const handleUnlike = () => {
     axios
       .post(`http://localhost:8080/api/posts/${postId}/unlike`, {}, { withCredentials: true })
