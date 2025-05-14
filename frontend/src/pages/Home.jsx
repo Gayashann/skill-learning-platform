@@ -6,7 +6,7 @@ import { SunIcon, MoonIcon, PencilIcon, TrashIcon, HandThumbUpIcon, ChatBubbleLe
 import { FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 //HOME JSX
-//home page jsx
+
 export default function Home() {
   const {
     user,
