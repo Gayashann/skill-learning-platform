@@ -117,7 +117,7 @@ export default function Home() {
     setEditingCommentId(comment.id);
     setEditedCommentText(comment.text);
   };
-
+  
   const handleCommentUpdate = async (postId, commentId) => {
     if (!user || !editedCommentText.trim()) return;
     try {
@@ -135,7 +135,7 @@ export default function Home() {
       }
     }
   };
-
+  // Handle comment deletion
   const handleCommentDelete = async (postId, commentId) => {
     if (!user) return;
     try {
