@@ -22,6 +22,7 @@ export default function PostDetails({ postId }) {
       .catch((err) => console.error("Error fetching user:", err));
   }, [postId]);
 
+  //like a post
   const handleLike = () => {
     axios
       .post(`http://localhost:8080/api/posts/${postId}/like`, {}, { withCredentials: true })
