@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { SunIcon, MoonIcon, PencilIcon, TrashIcon, HandThumbUpIcon, ChatBubbleLeftIcon, ShareIcon, HeartIcon, LinkIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaWhatsapp, FaFacebook } from "react-icons/fa";
 
-//HOME JSX
+
 // This component fetches posts, handles comments, reactions, and user authentication
 export default function Home() {
   const {
