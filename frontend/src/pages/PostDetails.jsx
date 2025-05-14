@@ -78,6 +78,7 @@ export default function PostDetails({ postId }) {
       .catch((err) => console.error("Error deleting comment:", err));
   };
 
+  // Check if post is null and return loading state
   if (!post) return <div className="text-center p-4">Loading...</div>;
 
   return (
