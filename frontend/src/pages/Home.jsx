@@ -210,7 +210,7 @@ export default function Home() {
       setTimeout(() => setShowShareOptions(null), 5000);
     }
   };
-
+  // Generate post URL for sharing
   const getPostUrl = (postId) => `http://localhost:3000/posts/${postId}`;
 
   const handleShare = (postId, platform) => {
