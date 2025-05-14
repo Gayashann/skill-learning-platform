@@ -154,7 +154,7 @@ export default function Home() {
       }
     }
   };
-
+  // Toggle comment section visibility
   const toggleCommentSection = (postId) => {
     setActiveCommentPostId(activeCommentPostId === postId ? null : postId);
   };
