@@ -234,7 +234,7 @@ export default function Home() {
     }
     setShowShareOptions(null);
   };
-
+  // Handle authentication form submission
   const handleAuthSubmit = async (e) => {
     e.preventDefault();
     setError("");
