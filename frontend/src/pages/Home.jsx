@@ -158,7 +158,7 @@ export default function Home() {
   const toggleCommentSection = (postId) => {
     setActiveCommentPostId(activeCommentPostId === postId ? null : postId);
   };
-
+  // Handle reaction to a post
   const handleReaction = async (postId, reactionType) => {
     if (!user) return;
     try {
