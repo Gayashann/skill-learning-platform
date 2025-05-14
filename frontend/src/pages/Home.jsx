@@ -212,7 +212,7 @@ export default function Home() {
   };
   // Generate post URL for sharing
   const getPostUrl = (postId) => `http://localhost:3000/posts/${postId}`;
-
+  // Handle sharing on different platforms
   const handleShare = (postId, platform) => {
     const url = getPostUrl(postId);
     const title = posts.find((p) => p.id === postId)?.title || "Check out this post!";
