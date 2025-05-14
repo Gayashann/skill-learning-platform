@@ -110,7 +110,7 @@ export default function Home() {
     }
   };
 
-  //Good
+  
 
   const startEditingComment = (comment) => {
     if (!user || String(user.id) !== String(comment.user.id)) return;
