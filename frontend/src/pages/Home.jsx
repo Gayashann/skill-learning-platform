@@ -62,7 +62,7 @@ export default function Home() {
       setLoading(false);
     }
   };
-
+  // Fetch posts when the component mounts or when the user changes
   useEffect(() => {
     if (user) {
       fetchPosts();
