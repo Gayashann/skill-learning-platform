@@ -200,7 +200,7 @@ export default function Home() {
       }
     }
   };
-
+  // Handle share options
   const toggleShareOptions = (postId) => {
     if (showShareOptions === postId) {
       setShowShareOptions(null);
