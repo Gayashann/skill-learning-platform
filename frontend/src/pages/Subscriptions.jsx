@@ -10,6 +10,8 @@ export default function Subscriptions() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+
+  // Fetch subscription plans from the backend
   const fetchSubscriptionPlans = async () => {
     setLoading(true);
     setError(null);
@@ -24,6 +26,8 @@ export default function Subscriptions() {
     }
   };
 
+
+  // Handle plan selection by the user
   const handleSelectPlan = async (planName) => {
     if (!user) {
       alert("Please log in to select a plan.");
@@ -47,6 +51,7 @@ export default function Subscriptions() {
     }
   };
 
+   // Fetch plans on initial render
   useEffect(() => {
     fetchSubscriptionPlans();
   }, []);

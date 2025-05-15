@@ -1,3 +1,4 @@
+// Import necessary React hooks and components
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
@@ -9,6 +10,7 @@ function Navbar() {
   const { user, logout, theme, toggleTheme, setShowAuthForm, setIsLogin } =
     useContext(AuthContext);
 
+    // Animation variants for navbar
   const navVariants = {
     hidden: { opacity: 0, y: -20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
