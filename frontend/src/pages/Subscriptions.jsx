@@ -10,6 +10,8 @@ export default function Subscriptions() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+
+  // Fetch subscription plans from the backend
   const fetchSubscriptionPlans = async () => {
     setLoading(true);
     setError(null);
