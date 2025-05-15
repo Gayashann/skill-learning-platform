@@ -26,6 +26,8 @@ export default function Subscriptions() {
     }
   };
 
+
+  // Handle plan selection by the user
   const handleSelectPlan = async (planName) => {
     if (!user) {
       alert("Please log in to select a plan.");
