@@ -51,6 +51,7 @@ export default function Subscriptions() {
     }
   };
 
+   // Fetch plans on initial render
   useEffect(() => {
     fetchSubscriptionPlans();
   }, []);
