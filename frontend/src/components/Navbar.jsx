@@ -1,3 +1,4 @@
+// Import necessary React hooks and components
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
